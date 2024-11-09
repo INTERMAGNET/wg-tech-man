@@ -3,4 +3,5 @@
 ## Attendees
 - Stephan Bracke
 - Chris Turbitt
-- A someone else
+- Jürgen Matzka
+- Andrew Lewis
