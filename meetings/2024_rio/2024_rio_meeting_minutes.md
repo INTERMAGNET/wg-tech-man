@@ -50,4 +50,5 @@
 | **TM.18** | GIN subcomittee | Provide input for  a chapter on MQTT                                                                                                                                             |
 | **TM.19** | TM subcomittee  | review web site and suggest needed corrections and better integration with TM                                                                                                    |
 | **TM.20** |       SF        | Add information of usage and download possibility of definitive data via the DOIs and specifiy  the differences                                                                  |
-| **TM.21** |       ?         | Update contact info in appendices                                                                                                                                                |
+| **TM.21** |       SF        | Minor update to CDF format                                                                                                                                                       |
+| **TM.22** |       ?         | Update contact info in appendices                                                                                                                                                |
