@@ -49,7 +49,7 @@
 | **TM.17** | GIN subcomittee | Validate the following information: “1-second data: Available to users within 30 seconds" != (6.2.3 page 31) at the end "IMO may not make more than 1440 uploads per day"        |        |
 | **TM.18** | GIN subcomittee | Provide input for  a chapter on MQTT                                                                                                                                             |        |
 | **TM.19** | TM subcomittee  | review web site and suggest needed corrections and better integration with TM                                                                                                    |        |
-| **TM.20** |       SF        | Add information of usage and download possibility of definitive data via the DOIs and specifiy   the differences                                                                 |        |
+| **TM.20** |       SF        | Add information of usage and download possibility of definitive data via the DOIs and specifiy   the differences                                                                 |  Done   |
 | **TM.21** |       SF        | Minor update to CDF format                                                                                                                                                       |  Done    |
 | **TM.22** |       ??         | Update contact info in appendices                                                                                                                                                |        |
 
