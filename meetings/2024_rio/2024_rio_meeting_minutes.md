@@ -37,7 +37,7 @@
 | **TM.05** |       CT        | Appendix A-1: Many of the definitions are specific to either IMFV1.22 or satellite transmission data formats e.g. “time stamp” and “flags”. Add general terminology definitions. |        |
 | **TM.06** |       JM        | Appendix C-1: G represents ΔF (see description below) but description hard to find                                                                                               |        |
 | **TM.07** |       JM        | Appendix C-1: Orientation of “UVZ” has no definition in Section 6.1.3 Generate a table of the various orientations for the Technical Manual.                                     |        |
-| **TM.08** |      JM/SB      | Generate a DOI for the current release V-5.1.0  (SB send PDF)                                                                                                                    |   Done |
+| **TM.08** |      JM/SB      | Generate a DOI for the current release V-5.1.1  (SB send PDF)                                                                                                                    |   Done |
 | **TM.09** |       SB        | Appendix C-4: Delete section on CD-ROM Software                                                                                                                                  |        |
 | **TM.10** |       SB        | Add links to previous version via DOI on the website publications                                                                                                                |  Done   |
 | **TM.11** |       SB        | transform documentation made to contribute into MD locally and remote                                                                                                            | Not started  |
