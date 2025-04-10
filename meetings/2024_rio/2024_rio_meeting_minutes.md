@@ -30,9 +30,9 @@
 
 |  Number   |   Responsible   | Description                                                                                                                                                                      | Status |
 |:---------:|:---------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| **TM.01** |       AL        | Include Data Checkers  in acknowledgment                                                                                                                                         |        |
-| **TM.02** |       AL        | Add the definition of IYFV 1.03 to the TM                                                                                                                                        |        |
-| **TM.03** |       AL        | Add conditions of use CC-BY-NC 4.0                                                                                                                                               |        |
+| **TM.01** |       AL        | Include Data Checkers  in acknowledgment                                                                                                                                         |  not started    |
+| **TM.02** |       AL        | Add the definition of IYFV 1.03 to the TM                                                                                                                                        |  not started      |
+| **TM.03** |       AL        | Add conditions of use CC-BY-NC 4.0                                                                                                                                               |  not started      |
 | **TM.04** |       CT        | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the Technical Manual or a combination of the essentials and some references to the FAQ.   |        |
 | **TM.05** |       CT        | Appendix A-1: Many of the definitions are specific to either IMFV1.22 or satellite transmission data formats e.g. “time stamp” and “flags”. Add general terminology definitions. |        |
 | **TM.06** |       JM        | Appendix C-1: G represents ΔF (see description below) but description hard to find                                                                                               |        |
