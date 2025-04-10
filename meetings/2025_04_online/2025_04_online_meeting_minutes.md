@@ -51,12 +51,12 @@ An overview can be found here https://github.com/INTERMAGNET/wg-tech-man/blob/ma
 
 1. Any enhancements, ideas, changes needed, etc can quickly be documented by a creation of an issue on the work group,https://github.com/INTERMAGNET/wg-tech-man/issues 
 2. Any Changes on the imag-tech-man **ALWAYS** need to be done on a separate branch **NEVER** on the main branch and integrated via a pull request (always reviewed).
-3. Big changes to the www.intermagnet.io are **preferably** done on a seperate development branch, although we can accept small changes/spelling corrections directly on the main branch.
+3. Big changes to the www.intermagnet.io are **preferably** done on a separate development branch, although we can accept small changes/spelling corrections directly on the main branch.
 4. In the wg-tech-man repository changes can be done directly on the main branch.
 
 ### Remarks
 
 During normal use we don't risk to have many conflicts because we rarely will change the same file.
-Pull requests via a  own branch seperates the work and garantees a review which is necessary for any change on the technical manual. 
+Pull requests via a  own branch separates the work and garantees a review which is necessary for any change on the technical manual. 
 The issues list is there to quickly note something down that can be treated later on.
 SB can always do a personal online meeting when in need of extra support or guidelines 
