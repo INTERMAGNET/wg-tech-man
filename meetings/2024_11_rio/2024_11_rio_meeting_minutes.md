@@ -45,13 +45,13 @@
 | **TM.13** |       SB        | organise video intermediate videoconferences                                                                                                                                     | Done        |
 | **TM.14** | DD subcomittee  | Provide text for the TM on the use of flags as a separate metadata field (ref. DD31) (also in CDF)                                                                               | Ongoing     |
 | **TM.15** | DD subcomittee  | Add a section on Auto D&I and Auto Baseline.                                                                                                                                     | Not started |
-| **TM.16** | GIN subcomittee | flagging of data could be available in MQTT,CDF and ...                                                                                                                          | Ongoing     |
+| **TM.16** | GIN subcomittee | flagging of data could be available in MQTT,CDF and ...                                                                                                                          | Onandgoing     |
 | **TM.17** | GIN subcomittee | Validate the following information: “1-second data: Available to users within 30 seconds" != (6.2.3 page 31) at the end "IMO may not make more than 1440 uploads per day"        | Not started |
 | **TM.18** | GIN subcomittee | Provide input for  a chapter on MQTT                                                                                                                                             | Ongoing     |
 | **TM.19** | TM subcomittee  | review web site and suggest needed corrections and better integration with TM                                                                                                    | Ongoing     |
 | **TM.20** |       SF        | Add information of usage and download possibility of definitive data via the DOIs and specifiy   the differences                                                                 | Done        |
 | **TM.21** |       SF        | Minor update to CDF format                                                                                                                                                       | Done        |
-| **TM.22** |       AL        | Update contact info in appendices                                                                                                                                                |             |
+| **TM.22** |       AL        | Update contact info in appendices                                                                                                                                                | Not started            |
 
 Extra:
 
