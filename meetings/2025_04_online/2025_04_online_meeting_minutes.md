@@ -3,6 +3,7 @@
 ## Attendees
  
 - Stephan Bracke (SB)
+- Andras Csontos (AC)
 - Jürgen Matzka (JM) (partial)
 - Seiki Asari (SA) (partial)
 - Andrew Lewis (AL)
