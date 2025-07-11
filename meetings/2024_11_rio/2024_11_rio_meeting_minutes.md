@@ -30,9 +30,9 @@
 
 |  Number   |   Responsible   | Description                                                                                                                                                                      | Status      |
 |:---------:|:---------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **TM.01** |       AL        | Include Data Checkers  in acknowledgment                                                                                                                                         | Not started |
+| **TM.01** |       AL        | Include Data Checkers  in acknowledgment                                                                                                                                         | Done        |
 | **TM.02** |      AL/SB      | Add the definition of IYFV 1.03 to the TM                                                                                                                                        | Not started |
-| **TM.03** |       AL        | Add conditions of use CC-BY-NC 4.0                                                                                                                                               | Not started |
+| **TM.03** |       AL        | Add conditions of use CC-BY-NC 4.0                                                                                                                                               | Done         |
 | **TM.04** |       CT        | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the Technical Manual or a combination of the essentials and some references to the FAQ.   | Not started |
 | **TM.05** |       CT        | Appendix A-1: Many of the definitions are specific to either IMFV1.22 or satellite transmission data formats e.g. “time stamp” and “flags”. Add general terminology definitions. | Not started |
 | **TM.06** |       JM        | Appendix C-1: G represents ΔF (see description below) but description hard to find                                                                                               | Not started |
@@ -51,7 +51,7 @@
 | **TM.19** | TM subcomittee  | review web site and suggest needed corrections and better integration with TM                                                                                                    | Ongoing     |
 | **TM.20** |       SF        | Add information of usage and download possibility of definitive data via the DOIs and specifiy   the differences                                                                 | Done        |
 | **TM.21** |       SF        | Minor update to CDF format                                                                                                                                                       | Done        |
-| **TM.22** |       AL        | Update contact info in appendices                                                                                                                                                | Not started |
+| **TM.22** |       AL        | Update contact info in appendices                                                                                                                                                | Done |
 
 Extra:
 
