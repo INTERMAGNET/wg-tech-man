@@ -31,7 +31,7 @@
 | **TM.02** |      AL/SB      | Add the definition of IYFV 1.03 to the TM                                                                                                                                        | Not started |
 | **TM.03** |       AL        | Add conditions of use CC-BY-NC 4.0                                                                                                                                               | Done        |
 | **TM.04** |       CT        | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the Technical Manual or a combination of the essentials and some references to the FAQ.   | Not started |
-| **TM.05** |       CT        | Appendix A-1: Many of the definitions are specific to either IMFV1.22 or satellite transmission data formats e.g. “time stamp” and “flags”. Add general terminology definitions. | Ongoing     |
+| **TM.05** |       CT        | Appendix A-1: Many of the definitions are specific to either IMFV1.22 or satellite transmission data formats e.g. “time stamp” and “flags”. Add general terminology definitions. | Done     |
 | **TM.06** |       JM        | Appendix C-1: G represents ΔF (see description below) but description hard to find                                                                                               | Not started |
 | **TM.07** |       JM        | Appendix C-1: Orientation of “UVZ” has no definition in Section 6.1.3 Generate a table of the various orientations for the Technical Manual.                                     | Not started |
 | **TM.08** |      JM/SB      | Generate a DOI for the current release V-5.1.1  (SB send PDF)                                                                                                                    | Done        |
@@ -53,9 +53,9 @@
 
 Next release after meeting : 
 
-* TM01, TM03, TM22, TM09
+* TM01, TM03,TM05, TM22, TM09
 * Corrected formula remarked by Marcos (6.5)
-* TM05  ongoing
+* 
 * others
 
 
