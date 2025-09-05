@@ -22,7 +22,7 @@
   * work with links to the Technical Manual
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
-    * real time data update with mqtt ?
+    * real time data update with mqtt and seedlink
 
 
 ## Action items status
