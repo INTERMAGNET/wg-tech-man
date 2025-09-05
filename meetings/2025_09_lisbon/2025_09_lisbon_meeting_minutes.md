@@ -18,13 +18,14 @@
   * Discussion on release planning
   * New items for future release
 * WEB
+  * review of open issues
   * work with links to the Technical Manual
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
     * real time data update with mqtt ?
 
 
-## Action items to plan
+## Action items status
 
 |  Number   |   Responsible   | Description                                                                                                                                                                      | Status      |
 |:---------:|:---------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
