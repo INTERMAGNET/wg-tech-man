@@ -55,8 +55,7 @@ Next release after meeting :
 
 * TM01, TM03,TM05, TM22, TM09
 * Corrected formula remarked by Marcos (6.5)
-* 
-* others
+* ?
 
 New items for future release :
 
