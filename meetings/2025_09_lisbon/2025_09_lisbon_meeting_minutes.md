@@ -58,6 +58,12 @@ Next release after meeting :
 * 
 * others
 
+New items for future release :
+
+* DD11 : Development  a new version IBFV base line format to account for manual and automatic measurements
+* DD.10 		Update Technical Manual - Data checking 1-minute
+* Discussion on CDF format for minute data and include K indices to replace IAF Format
+
 
 
 
