@@ -16,6 +16,7 @@
 * Technical Manual
   * Plan content of next release with DOI
   * Discussion on release planning
+  * New items for future release
 * WEB
   * work with links to the Technical Manual
   * reduce space usages by replacing year books with links to the World Data Center
