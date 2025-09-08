@@ -2,7 +2,7 @@
 
 ## Attendees
 - Stephan Bracke (SB)
-- Andras Csontos (AC)
+- András Csontos (AC)
 - Seiki Asari (SA) 
 - Andrew Lewis (AL)
 - Chris Turbitt (CT)
