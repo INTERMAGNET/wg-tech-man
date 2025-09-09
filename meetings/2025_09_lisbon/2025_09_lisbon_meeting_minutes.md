@@ -52,7 +52,10 @@
 | **TM.24** |       AL        | Check links                                                                                                                                                                     | Ongoing     |
 | **TM.25** |      SB/CT      | Update the FAQ                                                                                                                                                                  | Ongoing     |
 | **TM.26** |       SB        | Add doi to document explaining the needs for correct 1 sec data                                                                                                                 | not started |
-
+| **TM.27** |      CT     | Talk to ashley Smith to see what to do with VirES request    | not started     |      
+| **TM.28** |      SF     | when bulk data downoad is done include the data condition of use to it    | not started     |                  
+| **TM.29** |      CT/SB     | integrate links to the WDC for yearbooks   | not started     |                   
+| **TM.30** |      TM sucmmittee     | maximise use of git compared to document archive   | not started     |                   
 
 Next release after meeting : 
 
