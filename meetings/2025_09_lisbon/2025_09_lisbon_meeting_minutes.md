@@ -55,7 +55,7 @@
 | **TM.27** |      CT     | Talk to ashley Smith to see what to do with VirES request    | not started     |      
 | **TM.28** |      SF     | when bulk data downoad is done include the data condition of use to it    | not started     |                  
 | **TM.29** |      CT/SB     | integrate links to the WDC for yearbooks   | not started     |                   
-| **TM.30** |      TM sucmmittee     | maximise use of git compared to document archive   | not started     |                   
+| **TM.30** |      TM subcommittee     | maximise use of git compared to document archive   | not started     |                   
 
 Next release after meeting : 
 
