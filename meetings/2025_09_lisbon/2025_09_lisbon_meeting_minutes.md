@@ -51,22 +51,55 @@
 | **TM.20** |      SF     | when bulk data download is done include the data condition of use to it    | Not Started     |                  
 | **TM.21** |      CT     | integrate links to the WDC for yearbooks   | Not Started     |  
 | **TM.22** |      SB     | permanently delete yearbooks on intermagnet site  | Not Started     |     
-| **TM.23** |      TM subcommittee     | study how to maximise use of git compared to document archive   | Not Started     |                   
+| **TM.23** |      TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet   | Not Started     |                   
+| **TM.24** |      TM subcommittee     | study how to maximise use of git compared to document archive   | Not Started     |                   
+| **TM.25** |      ?     | Review and update chapter 6.4 Definitive 1 Minute data there is overlap with appendix C  | Not Started     |                   
 
 
 ## Discussions during meeting
 
+### Define UVZ variometer orientation
+
+Currently in the TM there is sometimes a mention of UVZ orientation but this orientation is not documented in the TM.
+It is mentioned 12 times in the appendices in intermagnet format definition IBF and IAF.
+AC found an article on the internet https://onlinelibrary.wiley.com/doi/10.1155/2018/1804092
 
 
 
 
-## Content Next Release : 5.3.0
+
+### Reduce space usage of the www.intermagnet.org repository
+
+This item was discussed in issue [92](https://github.com/INTERMAGNET/intermagnet.github.io/issues/92)
+Currently used space is 1,5 GB. Guidelines of GIT advise to not go over 5 GB.
+While pointing the yearbooks with a link to the yearbooks on the WDC site we will gain already 503MB which is 33 % of the current usage.
+For the moment these links are not available but CT will follow this up.(TM.23)
+This is for the moment enough but other solutions (a public ducument archive) to further reduce the disk space should be investigated (TM.24)
+
+
+### Release Planning
+
+As already discussed previously we will go for an yearly official release with DOI around the time of the next meeting.
+Version numbers will be treated as followed major.minor.cor: 
+
+* Major Release : a new subject is introduced into the manual
+ * example :  MQTT for near real time data
+* Minor Release : a significant change to the content without introducing new concepts or the yearly release with a specific DOI
+ * example : new version of an already existing standard
+* Corrections  (cor) :
+ * Typically language errors , errors in formula, etc
+     
+
+
+###  Next Release : 5.3.0
+
+Next release will be done shortly after the meeting in RIO.
 
 * action items from rio TM01, TM03,TM05, TM22, TM09 see [Rio Action Items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2025_04_online/2025_04_online_meeting_minutes.md)
 * Corrected formula remarked by Marcos (6.5) issue[ #14](https://github.com/INTERMAGNET/imag-tech-man/issues/14)
   
 
-## Not handled during meeting
+### Not handled during meeting
 
 * Extra admins for readthedocs
 * New items for future release :
