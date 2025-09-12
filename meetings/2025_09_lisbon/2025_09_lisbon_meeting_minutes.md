@@ -25,7 +25,7 @@
     * real time data update with mqtt and seedlink
 
 
-## Action items status
+## Action items from September 2025 meeting
 
 |  Number   |   Responsible   | Description                                                                                                                                                                     | Status      |
 |:---------:|:---------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
@@ -53,26 +53,25 @@
 | **TM.22** |      SB     | permanently delete yearbooks on intermagnet site  | Not Started     |     
 | **TM.23** |      TM subcommittee     | study how to maximise use of git compared to document archive   | Not Started     |                   
 
-Next release after meeting : 
 
-* action items from rio TM01, TM03,TM05, TM22, TM09 see [rio action items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2025_04_online/2025_04_online_meeting_minutes.md)
+## Discussions during meeting
+
+
+
+
+
+## Content Next Release : 5.3.0
+
+* action items from rio TM01, TM03,TM05, TM22, TM09 see [Rio Action Items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2025_04_online/2025_04_online_meeting_minutes.md)
 * Corrected formula remarked by Marcos (6.5) issue[ #14](https://github.com/INTERMAGNET/imag-tech-man/issues/14)
   
 
-New items for future release :
+## Not handled during meeting
 
-* DD11 : Development  a new version IBFV base line format to account for manual and automatic measurements
-* DD.10 		Update Technical Manual - Data checking 1-minute
-* Discussion on CDF format for minute data and include K indices to replace IAF Format
-
-
-
-
-
-
-
-Extra:
-
-* Investigation how to limit space on website
 * Extra admins for readthedocs
+* New items for future release :
+
+ * DD.11 : Development  a new version IBFV base line format to account for manual and automatic measurements
+ * DD.10 		Update Technical Manual - Data checking 1-minute
+
 
