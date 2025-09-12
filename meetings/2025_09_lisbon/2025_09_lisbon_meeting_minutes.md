@@ -46,7 +46,7 @@
 | **TM.15** |       AC        | Update his name                                                                                                                                                                 | Not Started     |
 | **TM.16** |       AL        | Check for broken links on website                                                                                                                                              | Ongoing     |
 | **TM.17** |      SB/CT      | Update the FAQ                                                                                                                                                                  | Ongoing     |
-| **TM.18** |       SB        | Add doi to document explaining the needs for correct 1 sec data                                                                                                                 | Not Started |
+| **TM.18** |       SA/SB/CT        | Add doi to document explaining the needs for correct 1 sec data, delete appendix F1                                                                                                                 | Not Started |
 | **TM.19** |      CT     | Talk to ashley Smith to see what to do with VirES request    | Not Started     |      
 | **TM.20** |      SF     | when bulk data download is done include the data condition of use to it    | Not Started     |                  
 | **TM.21** |      CT     | integrate links to the WDC for yearbooks   | Not Started     |  
@@ -58,6 +58,28 @@
 
 ## Discussions during meeting
 
+###  Problem of keeping in sync the different sources
+
+Currently there are three places which have an overlap of certain items :
+
+* git repository www.intermagnet.org
+* git repository tech-man.intermagnet.org
+* document archive at BGS
+
+To limit the duplications we will try to maximise the work with links. 
+
+For what the team members list is concerned we need to monitor it ourself and whenever we see inconcistency we should update the other source as well.
+The problem comes when someone updates the table directly on the master branch to the website. We will not be warned by mail of these changes. SB will
+try to monitor this more closely. So we will be able to synchronise it almost immediately with the technical manual.
+AL will update the member table in the technical manual TM.08.
+
+The document archive is a private archive and only maintainable by CT. CT will see if there are items we can move to GIT so everybody can maintain this content.
+
+Related to this issue SB will restructure the FAQ section and reformat it  into plain markdown. It will make it simple to maximize answers to the FAQ with links to the technical manual instead
+of introducing the same content two times.
+
+
+
 ### Define UVZ variometer orientation
 
 Currently in the TM there is sometimes a mention of UVZ orientation but this orientation is not documented in the TM.
@@ -65,7 +87,7 @@ It is mentioned 12 times in the appendices in intermagnet format definition IBF 
 AC found an article on the internet https://onlinelibrary.wiley.com/doi/10.1155/2018/1804092 
 It mentions  *decided to orient the sensor to the “UVZ” orientation. This means that the two horizontal axes are oriented ±45° from local meridian*
 AC will search and try to find correct information. 
-During the Discussion Jean Rasson was mentioned and SB will try to find out if he has some clean definition on that one.
+During the discussion Jean Rasson was mentioned and SB will try to find out if he has some clean definition on that one.
 
 CT send  a almost complete table of all components used with their standardized Indication
 
@@ -93,9 +115,13 @@ No clear decision was made during this meeting but AC and SB will try to go into
 During investigation SB find out that there is a overlap with chapter 6.4 and appendix C so he added TM.25 that needs to be assigned to someone during the next online meeting.
 
  
+### Need for more info on how to produce intermagnet 1 sec data
 
-
-
+SA makes a valuable remark that in the TM there is no definition on how to produce 1 sec data that applies to the Intermagnet standard for 1 sec data.
+He refers to the appendix F.2 that has the title "Filter Coefficients to Produce One Second Value" but the coefficients where never mentioned.
+CT explains that there is a lot more to that then simple list of filter coefficients, he however mentions that there are some documents that explain it 
+more in detail but it can be specific for the type of variometer. As action point we should at least delete this F.2 appendix title.
+As extra we can make references to all other existing documents that defines these specifications. CT will provide if possible doi or link to these documents.
 
 ### Reduce space usage of the www.intermagnet.org repository
 
@@ -104,7 +130,6 @@ Currently used space is 1,5 GB. Guidelines of GIT advise to not go over 5 GB.
 While pointing the yearbooks with a link to the yearbooks on the WDC site we will gain already 503MB which is 33 % of the current usage.
 For the moment these links are not available but CT will follow this up.(TM.23)
 This is for the moment enough but other solutions (a public ducument archive) to further reduce the disk space should be investigated (TM.24)
-
 
 ### Release Planning
 
@@ -118,22 +143,20 @@ Version numbers will be treated as followed major.minor.cor:
 * Corrections  (cor) :
   * Typically language errors , errors in formula, etc
      
-
-
 ###  Next Release : 5.3.0
 
 Next release will be done shortly after the meeting in RIO.
 
 * action items from rio TM01, TM03,TM05, TM22, TM09 see [Rio Action Items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2025_04_online/2025_04_online_meeting_minutes.md)
 * Corrected formula remarked by Marcos (6.5) issue[ #14](https://github.com/INTERMAGNET/imag-tech-man/issues/14)
+* Updated members table TM.08
   
 
 ### Not handled during meeting
 
 * Extra admins for readthedocs
 * New items for future release :
-
- * DD.11 : Development  a new version IBFV base line format to account for manual and automatic measurements
- * DD.10 		Update Technical Manual - Data checking 1-minute
+  * DD.11 : Development  a new version IBFV base line format to account for manual and automatic measurements
+  * DD.10 		Update Technical Manual - Data checking 1-minute
 
 
