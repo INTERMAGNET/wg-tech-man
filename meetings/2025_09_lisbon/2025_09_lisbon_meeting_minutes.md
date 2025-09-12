@@ -62,8 +62,37 @@
 
 Currently in the TM there is sometimes a mention of UVZ orientation but this orientation is not documented in the TM.
 It is mentioned 12 times in the appendices in intermagnet format definition IBF and IAF.
-AC found an article on the internet https://onlinelibrary.wiley.com/doi/10.1155/2018/1804092
+AC found an article on the internet https://onlinelibrary.wiley.com/doi/10.1155/2018/1804092 
+It mentions  *decided to orient the sensor to the “UVZ” orientation. This means that the two horizontal axes are oriented ±45° from local meridian*
+AC will search and try to find correct information. 
+During the Discussion Jean Rasson was mentioned and SB will try to find out if he has some clean definition on that one.
 
+CT send  a almost complete table of all components used with their standardized Indication
+
+| Code  |  Description    |
+|:-----:|---------------|
+|  X    |  North Component. The strength of the magnetic field vector in the geographic north direction (southerly values are --ve). |
+|  Y    | East component. The strength of the magnetic field vector in the geographic east direction (westerly values are –ve). | 
+|  Z    |  Vertical intensity. The strength of the magnetic field vector in the vertical direction. Z is upward positive downwards and hence negative in the southern hemisphere. |
+|  H    |  Horizontal intensity. The strength of the magnetic field vector in the horizontal plane along the magnetic meridian. |
+|  D    |  Declination or variation. The angle between the magnetic vector and true north positive east. |
+|  I    |  Inclination. The angle between the magnetic vector and the horizontal plane, in degrees of arc, positive above the horizontal. |
+|  F    |  Total field intensity. The geomagnetic field strength, calculated from and consistent with XYZ or HDZ field elements. |
+|  S    |  Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values. |
+|  G    |  Delta-F. Delta-F is defined as F(vector)--S(scalar) in nT. When calculating values for the G element, if F(vector) is missing, G is set to --S (scalar) |
+|  E    |  A field strength in the horizontal plane perpendicular to 'H'. 'E' is only valid for data that is not baseline corrected. |
+|  V    |  The field strength along the direction of the inclination. |
+|  A    |  NW component. |
+|  B    |  NE component, 'B' is perpendicular to 'A'. |
+
+WYZHDIF are mentioned and shown with a drawing in 6.1.3. The other ones are derived or slightly variants but should also be included and defined in the TM on a central place.
+
+For UVZ we will have a problem because V will end up with two different meanings.
+No clear decision was made during this meeting but AC and SB will try to go into more detail and find out how to integrate it in the TM.
+
+During investigation SB find out that there is a overlap with chapter 6.4 and appendix C so he added TM.25 that needs to be assigned to someone during the next online meeting.
+
+ 
 
 
 
@@ -83,11 +112,11 @@ As already discussed previously we will go for an yearly official release with D
 Version numbers will be treated as followed major.minor.cor: 
 
 * Major Release : a new subject is introduced into the manual
- * example :  MQTT for near real time data
+  * example :  MQTT for near real time data
 * Minor Release : a significant change to the content without introducing new concepts or the yearly release with a specific DOI
- * example : new version of an already existing standard
+  * example : new version of an already existing standard
 * Corrections  (cor) :
- * Typically language errors , errors in formula, etc
+  * Typically language errors , errors in formula, etc
      
 
 
