@@ -147,7 +147,7 @@ Version numbers will be treated as followed major.minor.cor:
 
 Next release will be done shortly after the meeting in RIO.
 
-* action items from rio TM01, TM03,TM05, TM22, TM09 see [Rio Action Items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2025_04_online/2025_04_online_meeting_minutes.md)
+* action items from rio TM01, TM03,TM05, TM22, TM09 see [Rio Action Items](https://github.com/INTERMAGNET/wg-tech-man/blob/main/meetings/2024_11_rio/2024_11_rio_meeting_minutes.md)
 * Corrected formula remarked by Marcos (6.5) issue[ #14](https://github.com/INTERMAGNET/imag-tech-man/issues/14)
 * Updated members table TM.08
   
