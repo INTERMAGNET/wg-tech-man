@@ -54,6 +54,7 @@
 | **TM.23** |      TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet   | Not Started     |                   
 | **TM.24** |      TM subcommittee     | study how to maximise use of git compared to document archive   | Not Started     |                   
 | **TM.25** |      ?     | Review and update chapter 6.4.3.2 Definitive 1 Minute data there is overlap with appendix C  | Not Started     |                   
+| **TM.26** |      ?     | Review all descriptions of QD data  | Not Started     |                   
 
 
 ## Discussions during meeting
