@@ -39,7 +39,7 @@
 * TM.17 : to be able to make links to the TM from within the FAQ we needed to restructure the FAQ section and reformat it  into plain markdown.
   * done see https://github.com/INTERMAGNET/intermagnet.github.io/tree/master/faq
 
-* New item on confusion of what reported data is because the definition says that the data is not baseline corrected.
+* New item on confusion of what reported data is because the definition says that the data is not baseline corrected,
   but intermagnet expects that the data send is at least baseline corrected.
   * so while in different locations on site and in TM we say that reported data can be send we mean reported data with baseline correction
   * mails were send to discuss on that issue some conclusions:.
