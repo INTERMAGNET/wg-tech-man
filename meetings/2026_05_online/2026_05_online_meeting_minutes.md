@@ -98,6 +98,7 @@
 | **TM.18** |     TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet                                                                          | Not Started  |                   
 | **TM.19** |     TM subcommittee     | study how to maximise use of git compared to document archive                                                                                                                    | Not Started  |                   
 | **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet                                                                                                              | Not Started  |                   
+| **TM.21** |     DD/CT   | need of extra metadata when GNSS is used for mark azimuth determination                                                                                                               | Not Started  |                   
 
 
 
