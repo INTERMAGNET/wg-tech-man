@@ -99,7 +99,6 @@
 | **TM.19** |     TM subcommittee     | study how to maximise use of git compared to document archive                                                                                                                    | Not Started  |                   
 | **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet                                                                                                              | Not Started  |                   
 | **TM.21** |     DD/CT   | need of extra metadata when GNSS is used for mark azimuth determination                                                                                                               | Not Started  |                   
-
 | **TM.22** |    TM subcommittee  | review TM  look at outdated chapters that could be removed or updated.                                                                                                          | Not Started  |               
 
 ### Need for more info on how to produce intermagnet 1 sec data
