@@ -11,7 +11,7 @@
 ## TM Subcommittee agenda
 
 * need of backup admin for readthedocs (CT and AL ?)
-* need a person to follow up the DD committee (Shun or András) 
+* need a person to follow up the DD committee (SA or AC) 
   * every communication with the DD committee:
     * DD.11 : Development of a new version IBFV base line format to account for manual and automatic measurements
     * DD.10 :	Update Technical Manual - Data checking 1-minute (cookbook)
