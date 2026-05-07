@@ -13,9 +13,10 @@ Section Title
 
 ## Level 2 — `` ``` ``
 
-```rst
-Subsection Title
-````````````````
+~~~rst
+  Subsection Title
+  ````````````````
+~~~
 
 ## Level 3 — `"""`
 
