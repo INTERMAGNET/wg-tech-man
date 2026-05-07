@@ -61,7 +61,7 @@
 |  Y   | East component. The strength of the magnetic field vector in the geographic east direction (westerly values are –ve).                                                  | 
 |  Z   | Vertical intensity. The strength of the magnetic field vector in the vertical direction. Z is upward positive downwards and hence negative in the southern hemisphere. |
 |  H   | Horizontal intensity. The strength of the magnetic field vector in the horizontal plane along the magnetic meridian.                                                   |
-|  D   | Declination or variation. The angle between the magnetic vector and true north positive east.                                                                          |
+|  D   | Declination or variation. The angle between the magnetic vector and true north positive east.                                                                          |102
 |  I   | Inclination. The angle between the magnetic vector and the horizontal plane, in degrees of arc, positive above the horizontal.                                         |
 |  F   | Total field intensity. The geomagnetic field strength, calculated from and consistent with XYZ or HDZ field elements.                                                  |
 |  S   | Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values.            |
@@ -100,7 +100,7 @@
 | **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet                                                                                                              | Not Started  |                   
 | **TM.21** |     DD/CT   | need of extra metadata when GNSS is used for mark azimuth determination                                                                                                               | Not Started  |                   
 
-
+| **TM.22** |    TM subcommittee  | review TM  look at outdated chapters that could be removed or updated.                                                                                                          | Not Started  |               
 
 ### Need for more info on how to produce intermagnet 1 sec data
 
