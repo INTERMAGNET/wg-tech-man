@@ -10,12 +10,15 @@
 
 ## TM Subcommittee agenda
 
-* need of backup admin for readthedocs (CT and AL ?)
-* need a person to follow up the DD committee (SA or AC) 
+* need of backup admin for readthedocs
+  * CT and AL will create an account and SB will add them to the project
+  
+* need a person to follow up the DD committee 
   * every communication with the DD committee:
     * DD.11 : Development of a new version IBFV base line format to account for manual and automatic measurements
     * DD.10 :	Update Technical Manual - Data checking 1-minute (cookbook)
     * flagging chapter
+  * SA will do the follow up of the DD committee
 * plan next major release 6.0 
   * Add chapter on MQTT (SB/SF)
   * Add the definition of IYFV 1.03 to the TM (AL)
@@ -36,15 +39,16 @@
    * replace UVZ with ABZ.
    * action to be taken new Action Item: create a section or add it Section 6.1.3 to on the explanation of SGEVAB in the TM.
      and also link it in the faq.
+   * CT has accepted to add this explanation TM03
 * TM.17 : to be able to make links to the TM from within the FAQ we needed to restructure the FAQ section and reformat it  into plain markdown.
   * done see https://github.com/INTERMAGNET/intermagnet.github.io/tree/master/faq
 
 * New item on confusion of what reported data is because the definition says that the data is not baseline corrected,
   but intermagnet expects that the data send is at least baseline corrected.
   * so while in different locations on site and in TM we say that reported data can be send we mean reported data with baseline correction
-  * mails were send to discuss on that issue some conclusions:.
+  * mails were send to discuss on that isCT and AL ?)sue some conclusions:.
     * We will retain the definition of “reported” data to avoid confusion and allow for the possibility of future variation stations. 
-      Hence IMOs need to submit baseline corrected real-time data as “adjusted” data. A note will be send (12 month delay between notifying IMOs and making the change)
+      Hence IMOs need to submit baseline corrected real-time data as “adjusted” data. A note will be send (12 month delay between notifying IMOs          and making the change)
     * Review and updates need to be made to the TM/web site to reflect this change and avoid confusion (AL ?)
 
 * New item : everyone reviews tm and looks at outdated chapters that could be removed or updated.
@@ -76,29 +80,24 @@
 |:---------:|:-----------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | **TM.01** |          AL/SB          | Add the definition of IYFV 1.03 to the TM                                                                                                                                        | Not Started  |
 | **TM.02** |           CT            | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the Technical Manual or a combination of the essentials and some references to the FAQ.   | Ongoing      |
-| **TM.03** |           SB            | Appendix C-1: G represents ΔF (see description below) but description hard to find                                                                                               | see TM 4     |
-| **TM.04** |          SB/AC          | Appendix C-1: Orientation of “UVZ” has no definition in Section 6.1.3 Generate a table of the various orientations for the Technical Manual.                                     | Ongoing      |
-| **TM.05** |          JM/SB          | Generate a DOI for the current release V-5.3.0  (SB send PDF)                                                                                                                    | DONE         |
-| **TM.06** |           SB            | Add links to previous version via DOI on the website publications                                                                                                                | Recurring    |
-| **TM.07** |           SB            | transform documentation made to contribute into MD locally and remote                                                                                                            | PDF enough ? |
-| **TM.08** |           AL            | update organisational structure in TM to align with website                                                                                                                      | DONE         |
-| **TM.09** |           SB            | organise video intermediate videoconferences                                                                                                                                     | Recurring    |
-| **TM.10** |     DD subcomittee      | Provide text for the TM on the use of flags as a separate metadata field (ref. DD31) (also in CDF)                                                                               | Not Started  |
-| **TM.11** |     DD subcomittee      | Add a section on Auto D&I and Auto Baseline.                                                                                                                                     | Not Started  |
-| **TM.12** |     GIN subcomittee     | Provide input for  a chapter on MQTT                                                                                                                                             | Ongoing      |
-| **TM.13** |     TM subcomittee      | review web site and suggest needed corrections and better integration with TM                                                                                                    | Recurring    |
-| **TM.14** |           AL            | Update contact info in appendices                                                                                                                                                | Done         |
-| **TM.15** |           AC            | Update his name                                                                                                                                                                  | Done         |
-| **TM.16** |           AL            | Check for broken links on website                                                                                                                                                | Ongoing      |
-| **TM.17** |          SB/CT          | Update the FAQ                                                                                                                                                                   | Ongoing      |
-| **TM.18** |     SA/SB/CT            | Add doi to document explaining the needs for correct 1 sec data, delete appendix F1                                                                                              | Not Started  |
-| **TM.19** |           CT            | Talk to ashley Smith to see what to do with VirES request                                                                                                                        | Not Started  |      
-| **TM.20** |           SF            | when bulk data download is done include the data condition of use to it                                                                                                          | Not Started  |                  
-| **TM.21** |           CT            | integrate links to the WDC for yearbooks                                                                                                                                         | Not Started  |  
-| **TM.22** |           SB            | permanently delete yearbooks on intermagnet site                                                                                                                                 | Not Started  |     
-| **TM.23** |     TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet                                                                          | Not Started  |                   
-| **TM.24** |     TM subcommittee     | study how to maximise use of git compared to document archive                                                                                                                    | Not Started  |                   
-
+| **TM.03** |           CT            | ADD explanation  of SGEVAB (UV) in the TM.                                                                                               | not started    |
+| **TM.04** |           SB            | Add links to previous version via DOI on the website publications                                                                                                                | Recurring    |
+| **TM.05** |           SB            | transform documentation made to contribute into MD locally and remote                                                                                                            | not started |
+| **TM.06** |           SB            | organise video intermediate videoconferences                                                                                                                                     | Recurring    |
+| **TM.07** |     DD/SA      | Provide text for the TM on the use of flags as a separate metadata field (ref. DD31) (also in CDF)                                                                               | Not Started  |
+| **TM.08** |     DD/SA      | Add a section on Auto D&I and Auto Baseline.                                                                                                                                     | Not Started  |
+| **TM.09** |     GIN/SB     | Provide input for  a chapter on MQTT                                                                                                                                             | Ongoing      |
+| **TM.10** |     TM subcomittee      | review web site and suggest needed corrections and better integration with TM                                                                                                    | Recurring    |
+| **TM.11** |           AL            | Check for broken links on website                                                                                                                                                | Ongoing      |
+| **TM.12** |          CT          | Update the FAQ with links to TM if possible                                                                                                                                                                   | Ongoing      |
+| **TM.13** |     SA/SB/CT            | Add doi to document explaining the needs for correct 1 sec data, delete appendix F1                                                                                              | Not Started  |
+| **TM.14** |           CT/JM            | Talk to ashley Smith to see what to do with VirES request/widen up the discussion on higher level                                                   about adding links to external data providers |ongoing |      
+| **TM.15** |           SF            | when bulk data download is done include the data condition of use to it                                                                                                          | Not Started  |                  
+| **TM.16** |           CT            | integrate links to the WDC for yearbooks                                                                                                                                         | investigating  |  
+| **TM.17** |           SB            | permanently delete yearbooks on intermagnet site                                                                                                                                 | Not Started  |     
+| **TM.18** |     TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet                                                                          | Not Started  |                   
+| **TM.19** |     TM subcommittee     | study how to maximise use of git compared to document archive                                                                                                                    | Not Started  |                   
+| **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet                                                                                                              | Not Started  |                   
 
 
 
