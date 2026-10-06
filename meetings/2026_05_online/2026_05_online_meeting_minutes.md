@@ -46,7 +46,7 @@
 * New item on confusion of what reported data is because the definition says that the data is not baseline corrected,
   but intermagnet expects that the data send is at least baseline corrected.
   * so while in different locations on site and in TM we say that reported data can be send we mean reported data with baseline correction
-  * mails were send to discuss on that isCT and AL ?)sue some conclusions:.
+  * mails were send to discuss on that issue some conclusions:.
     * We will retain the definition of “reported” data to avoid confusion and allow for the possibility of future variation stations. 
       Hence IMOs need to submit baseline corrected real-time data as “adjusted” data. A note will be send (12 month delay between notifying IMOs          and making the change)
     * Review and updates need to be made to the TM/web site to reflect this change and avoid confusion (AL ?)
