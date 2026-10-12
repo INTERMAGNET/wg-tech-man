@@ -22,7 +22,7 @@
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
   
-## Recap of taken decisions during online meeting
+## Recap of  decisions/discussions during online meeting
 
 ### responsibilities
 
