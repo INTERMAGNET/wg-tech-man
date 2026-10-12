@@ -117,6 +117,7 @@ As it is in a component it meas that it conflicts withe the iaga definition of V
 1. more links in the faq section ? keep as is , inline link or tab link ?
 2. link to organisational structure or not ?
 3. other pages that can be a link ?
+4. Do we accept links from TM to website as currently is for QD data examples ?
 
 ### Need for more info on how to produce intermagnet 1 sec data
 
