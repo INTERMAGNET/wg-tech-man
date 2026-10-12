@@ -10,7 +10,7 @@
 
 ## TM Subcommittee agenda, October 2026
 
-* Review of actions items may 2026
+* Review of actions items September 2025
 * Keep WEB and TM in sync (maximize links with TM)
 * Technical Manual
   * rewriting of chapter 6 (originally include explanation mqtt into the TM)
@@ -21,66 +21,14 @@
   * work with links to the Technical Manual
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
-  
-## Recap of  decisions/discussions during online meeting
 
-### responsibilities
+### responsibilities and roles are decided during last online meeting
 
-  * CT and AL added as administrators on Read the docs
-  * SA will follow up of needed new requirements coming from the DD ex
+* CT and AL added as administrators on Read the docs
+* SA will follow up of needed new requirements coming from the DD ex
     * DD.12 : Development of a new version IBFV base line format to account for manual and automatic measurements
     * DD.10/11 :	Update Technical Manual - Data checking 1-minute (cookbook)
     * flagging chapter (is it still ongoing)
-
-### UVZ orientation
-
-UVZ is mentioned in the IYVF (yearly means) and the IAF (binary archives) formats as a possible sensor orientation.
-We distinguish between sensor orientation and components as components are values measured in nT or degrees in case of D and I
-We found article on the internet where uvz was used as being  two horizontal axes are oriented ±45° from local meridian.
-
-| Code  |  Description    |
-|:-----:|---------------|
-|  X    |  North Component. The strength of the magnetic field vector in the geographic north direction (southerly values are --ve). |
-|  Y    | East component. The strength of the magnetic field vector in the geographic east direction (westerly values are –ve). | 
-|  Z    |  Vertical intensity. The strength of the magnetic field vector in the vertical direction. Z is upward positive downwards and hence negative in the southern hemisphere. |
-|  H    |  Horizontal intensity. The strength of the magnetic field vector in the horizontal plane along the magnetic meridian. |
-|  D    |  Declination or variation. The angle between the magnetic vector and true north positive east. |
-|  I    |  Inclination. The angle between the magnetic vector and the horizontal plane, in degrees of arc, positive above the horizontal. |
-|  F    |  Total field intensity. The geomagnetic field strength, calculated from and consistent with XYZ or HDZ field elements. |
-|  S    |  Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values. |
-|  G    |  Delta-F. Delta-F is defined as F(vector)--S(scalar) in nT. When calculating values for the G element, if F(vector) is missing, G is set to --S (scalar) |
-|  E    |  A field strength in the horizontal plane perpendicular to 'H'. 'E' is only valid for data that is not baseline corrected. |
-|  V    |  The field strength along the direction of the inclination.  **_'V' is only valid for data that is not baseline corrected._** |
-|  A    |  **_magnetic_** NW component. |
-|  B    |   **_magnetic_** NE component, 'B' is perpendicular to 'A'. |
-
-* E and V as this definition is only defined in IAGA2002 and not in intermagnet standards 
-* The whole table with exception of A, B is indicated as valid values for CDF
-* Do we need to add  S,G,E,V to our current component explanation.
-* A B is never mentioned as component
-* Is for everyone the direction of the inclination clear ?
-
-What is missing is a vector sensor orientation table
-
-Fluxgate variometers usually have 3 orthogonal fluxgate sensors. These sensors can be oriented in various ways.
-
-| Code  |  Description    |
-|:-----:|---------------|
-|  UVW    | rondom oriented instrument need of two angles to be able to transpose it to defined coordinate system   |
-|  DHZ    | two horizontal sensors are oriented towards magnetic north (H) and east, the third is vertical  |
-|  XYZ   |  two horizontal sensors are oriented towards geographic north and east, the third is vertical |
-|  DIF    | one sensor is oriented along the field vector (F), one sensor horizontal towards magnetic east, and one sensor perpendicular to the other two sensors  |
-|  ABZ    | two horizontal sensors are oriented towards magnetic north west (A) and north east, the third is vertical   |
-
-
-ACTION TO BE TAKEN : review of baseline calculation DHZ explained in 6.5
-
-
-exception :
-
-in the IBF it is mentioned as component. AL has processed and searched IBF files but didn't find any example of this. 
-As it is in a component it meas that it conflicts withe the iaga definition of V component (nT along F vector)
-
 
 
 ## Action items from September 2025 meeting
@@ -112,6 +60,63 @@ As it is in a component it meas that it conflicts withe the iaga definition of V
 | **TM.23** |      TM subcommittee     | study how to maximise use of git compared to document archive  | Not Started |
 
 
+## Open Discussion points
+
+### UVZ orientation
+
+UVZ is mentioned in the IYVF (yearly means) and the IAF (binary archives) formats as a possible sensor orientation.
+We distinguish between sensor orientation and components as components are values measured in nT or degrees in case of D and I
+We found article on the internet where uvz was used as being  two horizontal axes are oriented ±45° from local meridian.
+
+| Code  |  Description    |
+|:-----:|---------------|
+|  X    |  North Component. The strength of the magnetic field vector in the geographic north direction (southerly values are --ve). |
+|  Y    | East component. The strength of the magnetic field vector in the geographic east direction (westerly values are –ve). | 
+|  Z    |  Vertical intensity. The strength of the magnetic field vector in the vertical direction. Z is upward positive downwards and hence negative in the southern hemisphere. |
+|  H    |  Horizontal intensity. The strength of the magnetic field vector in the horizontal plane along the magnetic meridian. |
+|  D    |  Declination or variation. The angle between the magnetic vector and true north positive east. |
+|  I    |  Inclination. The angle between the magnetic vector and the horizontal plane, in degrees of arc, positive above the horizontal. |
+|  F    |  Total field intensity. The geomagnetic field strength, calculated from and consistent with XYZ or HDZ field elements. |
+|  S    |  Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values. |
+|  G    |  Delta-F. Delta-F is defined as F(vector)--S(scalar) in nT. When calculating values for the G element, if F(vector) is missing, G is set to --S (scalar) |
+|  E    |  A field strength in the horizontal plane perpendicular to 'H'. 'E' is only valid for data that is not baseline corrected. |
+|  V    |  The field strength along the direction of the inclination.  **_'V' is only valid for data that is not baseline corrected._** |
+|  A    |  **_magnetic_** NW component. |
+|  B    |   **_magnetic_** NE component, 'B' is perpendicular to 'A'. |
+
+* E and V as this definition is only defined in IAGA2002 and not in intermagnet standards
+* The whole table with exception of A, B is indicated as valid values for CDF
+* Do we need to add  S,G,E,V to our current component explanation.
+* A B is never mentioned as component
+* Is for everyone the direction of the inclination clear ?
+
+What is missing is a vector sensor orientation table
+
+Fluxgate variometers usually have 3 orthogonal fluxgate sensors. These sensors can be oriented in various ways.
+
+| Code  |  Description    |
+|:-----:|---------------|
+|  UVW    | rondom oriented instrument need of two angles to be able to transpose it to defined coordinate system   |
+|  DHZ    | two horizontal sensors are oriented towards magnetic north (H) and east, the third is vertical  |
+|  XYZ   |  two horizontal sensors are oriented towards geographic north and east, the third is vertical |
+|  DIF    | one sensor is oriented along the field vector (F), one sensor horizontal towards magnetic east, and one sensor perpendicular to the other two sensors  |
+|  ABZ    | two horizontal sensors are oriented towards magnetic north west (A) and north east, the third is vertical   |
+
+
+ACTION TO BE TAKEN : review of baseline calculation DHZ explained in 6.5
+
+
+exception :
+
+in the IBF it is mentioned as component. AL has processed and searched IBF files but didn't find any example of this.
+As it is in a component it meas that it conflicts withe the iaga definition of V component (nT along F vector)
+
+
+### work with links to technical manual
+
+1. more links in the faq section ? keep as is , inline link or tab link ?
+2. link to organisational structure or not ?
+3. other pages that can be a link ?
 
 ### Need for more info on how to produce intermagnet 1 sec data
 
