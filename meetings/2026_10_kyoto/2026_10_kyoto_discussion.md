@@ -22,7 +22,7 @@
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
 
-### rNew esponsibilities and roles that were decided during last online meeting
+### New responsibilities and roles that were decided during last online meeting
 
 * CT and AL added as administrators on Read the docs
 * SA will follow up of needed new requirements coming from the DD ex
