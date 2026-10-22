@@ -21,6 +21,7 @@
   * work with links to the Technical Manual
   * reduce space usages by replacing year books with links to the World Data Center
   * FAQ maintenance
+* Proposal : Azimuth determination with GNSS adding meta data
 
 ### New responsibilities and roles that were decided during last online meeting
 
