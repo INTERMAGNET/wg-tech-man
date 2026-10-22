@@ -37,8 +37,8 @@
 |  Number   |       Responsible       | Description                                                                                                                                                                      | Status       |
 |:---------:|:-----------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | **TM.01** |          AL/SB          | Add the definition of IYFV 1.03 to the TM | Done  |
-| **TM.02** |           CT            | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the TM or a combination of the essentials and some refs to the FAQ | Ongoing|
-| **TM.03** |           CT            | ADD explanation  of SGEVAB (UV) in the TM accompagnied with a illustration in the same style as the explanations of XYZHDI in Section 6.1.3       | not started    |
+| **TM.02** |           CT            | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the TM or a combination of the essentials and some refs to the FAQ | Starts after chapter 6 comp|
+| **TM.03** |           CT            | ADD explanation  of SGEVAB (UV) in the TM accompagnied with a illustration in the same style as the explanations of XYZHDI in Section ?       | starts after chapter 6 comp    |
 | **TM.04** |           SB            | Add links to previous version via DOI on the website publications| Recurring    |
 | **TM.05** |           SB            | transform documentation made to contribute into MD locally and remote | not started |
 | **TM.06** |           SB            | organise video intermediate videoconferences | Recurring    |
@@ -69,6 +69,7 @@ UVZ is mentioned in the IYVF (yearly means) and the IAF (binary archives) format
 We distinguish between sensor orientation and components as components are values measured in nT or degrees in case of D and I
 We found article on the internet where uvz was used as being  two horizontal axes are oriented ±45° from local meridian.
 
+### Geomagnetic Components
 | Code  |  Description    |
 |:-----:|---------------|
 |  X    |  North Component. The strength of the magnetic field vector in the geographic north direction (southerly values are --ve). |
@@ -78,31 +79,36 @@ We found article on the internet where uvz was used as being  two horizontal axe
 |  D    |  Declination or variation. The angle between the magnetic vector and true north positive east. |
 |  I    |  Inclination. The angle between the magnetic vector and the horizontal plane, in degrees of arc, positive above the horizontal. |
 |  F    |  Total field intensity. The geomagnetic field strength, calculated from and consistent with XYZ or HDZ field elements. |
-|  S    |  Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values. |
-|  G    |  Delta-F. Delta-F is defined as F(vector)--S(scalar) in nT. When calculating values for the G element, if F(vector) is missing, G is set to --S (scalar) |
-|  E    |  A field strength in the horizontal plane perpendicular to 'H'. 'E' is only valid for data that is not baseline corrected. |
-|  V    |  The field strength along the direction of the inclination.  **_'V' is only valid for data that is not baseline corrected._** |
-|  A    |  **_magnetic_** NW component. |
-|  B    |   **_magnetic_** NE component, 'B' is perpendicular to 'A'. |
 
-* E and V as this definition is only defined in IAGA2002 and not in intermagnet standards
-* The whole table with exception of A, B is indicated as valid values for CDF
-* Do we need to add  S,G,E,V to our current component explanation.
-* A B is never mentioned as component
-* Is for everyone the direction of the inclination clear ?
 
-What is missing is a vector sensor orientation table
 
-Fluxgate variometers usually have 3 orthogonal fluxgate sensors. These sensors can be oriented in various ways.
+
+#### Commonly Recorded Elements
+
+Besides components we can have :
 
 | Code  |  Description    |
 |:-----:|---------------|
-|  UVW    | rondom oriented instrument need of two angles to be able to transpose it to defined coordinate system   |
+|  S    |  Scalar field intensity. The geomagnetic field strength, measured using an instrument that is independent from that used to measure the vector field values. |
+|  G    |  Delta-F. Delta-F is defined as F(vector)--S(scalar) in nT. When calculating values for the G element, if F(vector) is missing, G is set to --S (scalar) |
+|  E    |  A field strength in the horizontal plane perpendicular to H. E is only valid for data that is not baseline corrected. |
+|  V    |  A field strength in the magnetic meridian perpendicular to F, positive down  V is only valid for data that is not baseline corrected. |
+|  A    |  **_magnetic_** NW component. |
+|  B    |   **_magnetic_** NE component, B is perpendicular to A. |
+
+
+
+### Common sensor orientations
+
+
+| Code  |  Description    |
+|:-----:|---------------|
+|  UVW    | random oriented instrument need of two angles to be able to transpose it to defined coordinate system   |
 |  DHZ    | two horizontal sensors are oriented towards magnetic north (H) and east, the third is vertical  |
-|  XYZ   |  two horizontal sensors are oriented towards geographic north and east, the third is vertical |
+|  XYZ    |  two horizontal sensors are oriented towards geographic north and east, the third is vertical |
 |  DIF    | one sensor is oriented along the field vector (F), one sensor horizontal towards magnetic east, and one sensor perpendicular to the other two sensors  |
 |  ABZ    | two horizontal sensors are oriented towards magnetic north west (A) and north east, the third is vertical   |
-
+ 
 
 ACTION TO BE TAKEN : review of baseline calculation DHZ explained in 6.5
 
@@ -110,8 +116,7 @@ ACTION TO BE TAKEN : review of baseline calculation DHZ explained in 6.5
 exception :
 
 in the IBF it is mentioned as component. AL has processed and searched IBF files but didn't find any example of this.
-As it is in a component it meas that it conflicts withe the iaga definition of V component (nT along F vector)
-
+TODO:see with DD committtee if UVZ is really used and send as baselines.
 
 ### work with links to technical manual
 
@@ -140,6 +145,13 @@ This is for the moment enough but other solutions (a public ducument archive) to
      
 ###  Next Release : 
   
+* IYFV 1.03
+* Restructuring of chapter 6 : Inclusion of mqtt
+* ....
+
+
+
+
 
 
 
