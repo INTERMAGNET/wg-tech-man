@@ -38,7 +38,7 @@
 |:---------:|:-----------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | **TM.01** |          AL/SB          | Add the definition of IYFV 1.03 to the TM | Done  |
 | **TM.02** |           CT            | Production of QD-Data; incorporate JM’s proposal from the updated FAQ (June 2020) into the TM or a combination of the essentials and some refs to the FAQ | Starts after chapter 6 comp|
-| **TM.03** |           CT            | ADD explanation  of SGEVAB (UV) in the TM accompagnied with a illustration in the same style as the explanations of XYZHDI in Section ?       | starts after chapter 6 comp    |
+| **TM.03** |           AC           | ADD explanation  of SGEVAB (UV) in the TM accompagnied with a illustration in the same style as the explanations of XYZHDI in Section ?       | starts after chapter 6 comp    |
 | **TM.04** |           SB            | Add links to previous version via DOI on the website publications| Recurring    |
 | **TM.05** |           SB            | transform documentation made to contribute into MD locally and remote | not started |
 | **TM.06** |           SB            | organise video intermediate videoconferences | Recurring    |
@@ -47,18 +47,21 @@
 | **TM.09** |     GIN/SB     | Provide input for  a chapter on MQTT |Ongoing|
 | **TM.10** |     TM subcomittee      | review web site and suggest needed corrections and better integration with TM | Recurring    |
 | **TM.11** |           AL            | Check for broken links on website | Ongoing      |
-| **TM.12** |          CT          | Update the FAQ with links to TM if possible | Ongoing      |
-| **TM.13** |     SA/SB/CT            | Add doi to document explaining the needs for correct 1 sec data, delete appendix F1 | Not Started  |
-| **TM.14** |           CT/JM            | Talk to ashley Smith to see what to do with VirES request/widen up the discussion on higher level  about adding links to external data providers |ongoing |
+| **TM.12** |          CT          | Update the FAQ with links to TM if possible | Starts after chapter 6 comp      |
+| **TM.13** |     SA              | propose document explaining the needs for correct 1 sec data to DD  | Not Started  |
+| **TM.14** |           CT/JM            | Talk to ashley Smith to see what to do with VirES request/widen up the discussion on higher level  about adding links to external data providers |Done |
 | **TM.15** |           SF            | when bulk data download is done include the data condition of use to it | Not Started  |
-| **TM.16** |           CT            | integrate links to the WDC for yearbook| investigating|
+| **TM.16** |           CT            | integrate links to the WDC for yearbook| ongoing|
 | **TM.17** |           SB            | permanently delete yearbooks on intermagnet site| Not Started  |
 | **TM.18** |     TM subcommittee     | Everybody invest in looking for other existing solutions to store docs,pdfs, photos etc on the internet| Not Started  |
-| **TM.19** |     TM subcommittee     | study how to maximise use of git compared to document archive | Not Started  |
+| **TM.19** |     CT     | move document archive to git | Started  |
 | **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet| Not Started  |
-| **TM.21** |     DD/CT   | need of extra metadata when GNSS is used for mark azimuth determination | Not Started  |
-| **TM.22** |    TM subcommittee  | review TM  look at outdated chapters that could be removed or updated. |Not Started  |
-| **TM.23** |      TM subcommittee     | study how to maximise use of git compared to document archive  | Not Started |
+| **TM.21** |     SB   | inform intermagnet on issue 19 proposal of metadata with gnss| Not Started  |
+| **TM.22** |    TM subcommittee  | review TM  look at outdated chapters that could be removed or updated. |Recurring  |
+| **TM.23** |    SB  |review of baseline calculation DHZ explained in 6.5 |Not Started  |
+| **TM.24** |     DD/SA      | integrating cookbook data checking |Started  |
+| **TM.25** |     SF/SB      | make metadata links work again |ongoing  |
+
 
 
 ## Open Discussion points
@@ -143,12 +146,16 @@ This is for the moment enough but other solutions (a public ducument archive) to
 
 
      
-###  Next Release : 
+###  Next Release 6.0 : 
   
 * IYFV 1.03
-* Restructuring of chapter 6 : Inclusion of mqtt
+* Restructured chapter 6 with inclusion of mqtt 
 * ....
 
+
+### New Items
+
+dIdD some remark can be made in the registered elements
 
 
 
