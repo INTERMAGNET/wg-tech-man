@@ -58,7 +58,7 @@
 | **TM.20** |     AL     |  revisit definition of reported and adjusted data / update what is needed for intermagnet| Not Started  |
 | **TM.21** |     SB   | inform intermagnet on issue 19 proposal of metadata with gnss| Not Started  |
 | **TM.22** |    TM subcommittee  | review TM  look at outdated chapters that could be removed or updated. |Recurring  |
-| **TM.23** |    SB  |review of baseline calculation DHZ explained in 6.5 |Not Started  |
+| **TM.23** |    AC  |review of baseline calculation DHZ explained in 6.5 |Not Started  |
 | **TM.24** |     DD/SA      | integrating cookbook data checking |Started  |
 | **TM.25** |     SF/SB      | make metadata links work again |ongoing  |
 
