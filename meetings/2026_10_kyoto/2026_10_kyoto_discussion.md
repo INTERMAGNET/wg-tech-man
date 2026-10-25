@@ -142,7 +142,7 @@ This item was discussed in issue [92](https://github.com/INTERMAGNET/intermagnet
 Currently used space is 1,5 GB. Guidelines of GIT advise to not go over 5 GB.
 While pointing the yearbooks with a link to the yearbooks on the WDC site we will gain already 503MB which is 33 % of the current usage.
 For the moment these links are not available but CT will follow this up.(TM.23)
-This is for the moment enough but other solutions (a public ducument archive) to further reduce the disk space should be investigated (TM.24)
+This is for the moment enough but other solutions (a public document archive) to further reduce the disk space should be investigated (TM.24)
 
 
      
@@ -156,6 +156,8 @@ This is for the moment enough but other solutions (a public ducument archive) to
 ### New Items
 
 dIdD some remark can be made in the registered elements
+look at what to do with Paris GIN
+
 
 
 
