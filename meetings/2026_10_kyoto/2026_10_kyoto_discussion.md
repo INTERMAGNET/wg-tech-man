@@ -155,8 +155,8 @@ This is for the moment enough but other solutions (a public document archive) to
 
 ### New Items
 
-dIdD some remark can be made in the registered elements
-look at what to do with Paris GIN
+* dIdD some remark can be made in the registered elements
+* look at what to do with Paris GIN
 
 
 
